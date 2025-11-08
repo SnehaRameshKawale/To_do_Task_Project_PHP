@@ -69,7 +69,7 @@
                     setTimeout(() => successMes.style.display = 'none', 500);
                 }, 2000);
             }
-            // ✅ Mark complete functionality
+            //Mark complete functionality
             const markBtns = document.querySelectorAll('.mark-complete');
             markBtns.forEach(btn => {
                 btn.addEventListener('click', () => {
