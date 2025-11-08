@@ -57,7 +57,7 @@
             @endforeach
         </ul>
         @else
-        <p class="text-lg font-semibold mb-3 text-gray-700">No task found <i class="fa-solid fa-heart-crack"></i></p>
+        <p class="text-lg font-semibold mb-3">No task found <i class="fa-solid fa-heart-crack"></i></p>
         @endif
     </div>
     <script>
@@ -69,7 +69,7 @@
                     setTimeout(() => successMes.style.display = 'none', 500);
                 }, 2000);
             }
-            // ✅ Mark complete functionality
+            //Mark complete functionality
             const markBtns = document.querySelectorAll('.mark-complete');
             markBtns.forEach(btn => {
                 btn.addEventListener('click', () => {
